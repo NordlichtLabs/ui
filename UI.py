@@ -57,7 +57,7 @@ st.write("Das Problem herkömmlicher Zufallsgeneratoren: Ein digitales Blindvert
 
 st.write("---")
 
-# --- ERKLAERUNG - SCHRITT 1: DIE VERSIEGELUNG (COMMIT) ---
+# --- ERKLAERUNG SCHRITT 1: DIE VERSIEGELUNG (COMMIT) ---
 col1, col2 = st.columns([1, 1])
 with col1:
     st.markdown('<div class="step-number">Schritt 1: Passwort festlegen</div>', unsafe_allow_html=True)
