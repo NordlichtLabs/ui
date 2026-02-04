@@ -146,8 +146,8 @@ with col2:
     st.markdown(f"""
     <div class="explanation">
         <span class="right-header">3. Die Kopplung & Ableitung (GENERATE)</span>
-        <b>Generator:</b> Hier passiert die "Magie". Das Passwort (Salt) (aus dem Vault) und der Entropy-Hash werden kombiniert.<br>
-        <b>Mathematik:</b> Daraus entsteht der Master-Hash.<br>
+        <b>Generator:</b> Hier passiert die "Magie". Das Passwort (Salt) (aus dem Vault) und der Entropy-Hash werden kombiniert.<br><br>
+        <b>Mathematik:</b> Daraus entsteht der Master-Hash.<br><br>
         <b>Ableitung:</b> Durch die Modulo-Formel werden aus diesem einen Master-Hash die finalen Zufallszahlen erstellt.
     </div>
     """, unsafe_allow_html=True)
