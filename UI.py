@@ -53,7 +53,7 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 st.title("🛡️ VTL (Verifiable Truth Layer: Interaktive Beweiskette")
-st.write("Das Problem herkömmlicher Zufallsgeneratoren: Ein digitales Blindvertrauen. Die meisten heutigen Systeme zur Zufallszahlengenerierung sind eine Blackbox. <br> Ob bei Gewinnspielen, Audits oder Zuteilungen – das Ergebnis wird hinter verschlossenen Türen berechnet. <br> Für den Nutzer ist nicht nachvollziehbar, ob das Resultat wirklich dem Zufall entspringt oder im Nachhinein manipuliert wurde. Ohne beweisbare Integrität bleibt jede digitale Entscheidung eine Vertrauensfrage, kein mathematischer Fakt.")
+st.write("Das Problem herkömmlicher Zufallsgeneratoren: Ein digitales Blindvertrauen. Die meisten heutigen Systeme zur Zufallszahlengenerierung sind eine Blackbox. Ob bei Gewinnspielen, Audits oder Zuteilungen – das Ergebnis wird hinter verschlossenen Türen berechnet. Für den Nutzer ist nicht nachvollziehbar, ob das Resultat wirklich dem Zufall entspringt oder im Nachhinein manipuliert wurde. Ohne beweisbare Integrität bleibt jede digitale Entscheidung eine Vertrauensfrage, kein mathematischer Fakt.")
 
 st.write("---")
 
