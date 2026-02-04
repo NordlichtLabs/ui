@@ -61,7 +61,7 @@ st.write("---")
 col1, col2 = st.columns([1, 1])
 with col1:
     st.markdown('<div class="step-number">Schritt 1: Passwort festlegen</div>', unsafe_allow_html=True)
-    user_salt = st.text_input("Überleg dir ein geheimes Passwort (Salt):", placeholder="z. B. Sommer2026")
+    user_salt = st.text_input("Erstelle dein Passwort (Salt):", placeholder="z. B. Sommer2026")
     
     if user_salt:
         if " " in user_salt:
