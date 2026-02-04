@@ -96,9 +96,9 @@ with col2:
     st.markdown(f"""
     <div class="explanation">
         <span class="right-header">1. Die Versiegelung (COMMIT)</span>
-        <b>Nutzer → Vault:</b> Der Nutzer schickt seinen Salt (sein Geheimnis) ab.<br>
+        <b>Nutzer → Vault:</b> Der Nutzer schickt seine Passwort (Salt)ab.<br>
         <b>Vault:</b> Das System berechnet sofort den Vault-Hash.<br>
-        <b>Vault → Nutzer:</b> Der Nutzer erhält eine Bestätigung mit Zeitstempel. Damit ist das Geheimnis "eingeloggt", bevor die Ziehung stattfindet.
+        <b>Vault → Nutzer:</b> Der Nutzer erhält eine Bestätigung mit Zeitstempel. Damit ist das Passwort (Salt) "eingeloggt", bevor die Ziehung stattfindet.
     </div>
     """, unsafe_allow_html=True)
 
@@ -145,7 +145,7 @@ with col2:
     st.markdown(f"""
     <div class="explanation">
         <span class="right-header">3. Die Kopplung & Ableitung (GENERATE)</span>
-        <b>Generator:</b> Hier passiert die "Magie". Der Salt (aus dem Vault) und der Entropy-Hash werden kombiniert.<br>
+        <b>Generator:</b> Hier passiert die "Magie". Das Passwort(Salt) (aus dem Vault) und der Entropy-Hash werden kombiniert.<br>
         <b>Mathematik:</b> Daraus entsteht der Master-Hash.<br>
         <b>Ableitung:</b> Durch die Modulo-Formel werden aus diesem einen Master-Hash die finalen Zufallszahlen erstellt.
     </div>
