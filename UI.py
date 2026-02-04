@@ -168,7 +168,7 @@ with col2:
             
             st.markdown(f"**Master-Hash (Ergebnis-DNA):**")
             st.code(m_hash)
-            st.success(f"### Ergebnisse: {', '.join(results)}")
+            st.success(f"### Zufallszahlen: {', '.join(results)}")
         elif " " in user_salt:
             st.error("Leerzeichen im Passwort sind nicht erlaubt!")
         else:
