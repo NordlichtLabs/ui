@@ -53,7 +53,8 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 st.title("🛡️ VTL: Interaktive Beweiskette")
-st.write("Folge der Sequenz, um die Unmanipulierbarkeit zu verstehen.")
+st.write("„Don't Trust, Verify“
+VTL nutzt Multi-Source-Entropie und kryptografische Protokolle, um sicherzustellen, dass Ergebnisse nicht nur fair sind, sondern auch für immer beweisbar bleiben.")
 
 st.write("---")
 
