@@ -98,7 +98,7 @@ with col2:
         <span class="right-header">1. Die Versiegelung (COMMIT)</span>
         <b>Nutzer → Vault:</b> Der Nutzer schickt seine Passwort (Salt) ab.<br>
         <b>Vault:</b> Das System berechnet sofort den Vault-Hash.<br>
-        <b>Vault → Nutzer:</b> Der Nutzer erhält eine Bestätigung mit Zeitstempel. Damit ist das Passwort (Salt) "eingeloggt", bevor die Ziehung stattfindet.<br>
+        <b>Vault → Nutzer:</b> Der Nutzer erhält eine Bestätigung mit Zeitstempel. Damit ist das Passwort (Salt) "eingeloggt", bevor die Ziehung stattfindet.<br><br>
         Hinweis: Das Passwort muss zwingend vor der nächsten Cut-Off-Zeit (Beginn der Ziehungen) im Vault versiegelt werden. Nach diesem Zeitpunkt ist keine Hinterlegung für die aktuelle Runde mehr möglich, um eine nachträgliche Beeinflussung des Ergebnisses auszuschließen.
     </div>
     """, unsafe_allow_html=True)
