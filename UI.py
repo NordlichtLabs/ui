@@ -96,7 +96,7 @@ with col2:
     st.markdown(f"""
     <div class="explanation">
         <span class="right-header">1. Die Versiegelung (COMMIT)</span>
-        <b>Nutzer → Vault:</b> Der Nutzer schickt seine Passwort (Salt) ab.<br>
+        <b>Nutzer → Vault:</b> Der Nutzer gibt seine Passwort (Salt) ein.<br>
         <b>Vault:</b> Das System berechnet sofort den Vault-Hash.<br>
         <b>Vault → Nutzer:</b> Der Nutzer erhält eine Bestätigung mit Zeitstempel. Damit ist das Passwort (Salt) "eingeloggt", bevor die Ziehung stattfindet.<br><br>
         Hinweis: Das Passwort muss zwingend vor der nächsten Cut-Off-Zeit (Beginn der Ziehungen) im Vault versiegelt werden. <br> Nach diesem Zeitpunkt ist keine Hinterlegung für die aktuelle Runde mehr möglich, um eine nachträgliche Beeinflussung des Ergebnisses auszuschließen.
@@ -121,7 +121,7 @@ with col2:
     st.markdown(f"""
     <div class="explanation">
         <span class="right-header">2. Die Gewinnung der Entropie (EXTERNAL)</span>
-        <b>Welt:</b> Die Lotto-Ziehungen finden statt. Diese Daten sind für alle gleichzeitig sichtbar und können von niemandem im System kontrolliert werden.<br>
+        <b>Welt:</b> Die Lotto-Ziehungen finden statt. <br> Diese Daten sind für alle gleichzeitig sichtbar und können von niemandem im System kontrolliert werden.<br>
         <b>Generator:</b> Das System sammelt diese Zahlen und erstellt daraus den Entropy-Hash.
     </div>
     """, unsafe_allow_html=True)
