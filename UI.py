@@ -121,7 +121,7 @@ with col2:
     st.markdown(f"""
     <div class="explanation">
         <span class="right-header">2. Die Gewinnung der Entropie (EXTERNAL)</span>
-        <b>Welt:</b> Die Lotto-Ziehungen finden statt. <br> Diese Daten sind für alle gleichzeitig sichtbar und können von niemandem im System kontrolliert werden.<br><br>
+        <b>Welt:</b> Die Lotto-Ziehungen finden statt. <br><br> Diese Daten sind für alle gleichzeitig sichtbar und können von niemandem im System kontrolliert werden.<br><br>
         <b>Generator:</b> Das System sammelt diese Zahlen und erstellt daraus den Entropy-Hash.
     </div>
     """, unsafe_allow_html=True)
