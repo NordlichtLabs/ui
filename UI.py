@@ -166,7 +166,7 @@ with col2:
                 final_val = (pick_int % span) + range_min
                 results.append(str(final_val))
             
-            st.markdown(f"**Master-Hash (Ergebnis-DNA):**")
+            st.markdown(f"**Master-Hash = (Entropy-Hash + Passwort-Salt):**")
             st.code(m_hash)
             st.success(f"### Zufallszahlen: {', '.join(results)}")
         elif " " in user_salt:
