@@ -125,7 +125,7 @@ with col2:
         <b>Generator:</b> Das System sammelt diese Zahlen und erstellt daraus den Entropy-Hash.
     </div>
     """, unsafe_allow_html=True)
-    st.markdown(f"**Entropy-Hash (Zusammenfassung):**")
+    st.markdown(f"**Entropy-Hash:**")
     st.code(e_hash)
 
 st.write("---")
