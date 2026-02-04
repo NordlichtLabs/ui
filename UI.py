@@ -207,7 +207,7 @@ with v_col2:
     st.markdown(f"""
     <div class="explanation">
         <span class="right-header">4. Die Verifizierung (AUDIT)</span>
-        <b>Nutzer:</b> Der Nutzer kann nun sein ursprüngliches Passwort eingeben.<br>
+        <b>Nutzer:</b> Der Nutzer kann nun sein ursprüngliches Passwort eingeben.<br><br>
         <b>Validator:</b> Jeder kann nun prüfen: Ergibt (Passwort + Entropy-Hash) wirklich den Master-Hash auf dem Zertifikat??
     </div>
     """, unsafe_allow_html=True)
